@@ -20,8 +20,10 @@ public class Shortcuts {
 	//Methods or Behavior
 	public void Addition()
 	{
+		int e;
 		int c=a+b;
 		System.out.println("Addition of a and is b is : " + c);
+		Substraction(); //Method call
 	}
 
 
@@ -29,18 +31,22 @@ public class Shortcuts {
 	{
 		int c=a-b;
 		System.out.println("Substraction of a and is b is : " + c);
+		Multiplication();
 	}
 
+
+	public void Multiplication()
+	{
+		int c=a*b;
+		System.out.println("Multiplication of a and is b is : " + c);
+	}
 
 
 	public static void main(String[] args) {
 
-		//Classname objname/instance = new Constructor name();
+		//Classname objname/instance/Reference variable = new Constructor name();
 		Shortcuts s1 = new Shortcuts();
 		s1.Addition();
-		s1.Substraction();
-		System.out.println("Value of a is : " + s1.a);
-		System.out.println("Value of b is : " + s1.b);
 
 	}
 

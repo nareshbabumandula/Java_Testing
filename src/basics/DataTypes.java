@@ -44,7 +44,7 @@ public class DataTypes {
 		System.out.println(sText);
 		
 		int Marks[]= {40,80,90,85,60};
-		System.out.println(Marks[5]);
+		System.out.println(Marks[4]);
 		
 
 	}
