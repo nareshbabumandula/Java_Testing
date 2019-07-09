@@ -34,8 +34,8 @@ public class IfTest {
 	
 	public void IfElseIfElseExample()
 	{
-		int a=100;
-		int b=10;
+		int a=10;
+		int b=100;
 		
 		if (a>b) 
 		{
