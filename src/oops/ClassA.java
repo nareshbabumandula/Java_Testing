@@ -31,7 +31,17 @@ public class ClassA {
 	}
 	
 	public ClassA() {
-		System.out.println("This is a constructor of ClassA...");
+		System.out.println("This is a constructor");
 	}
+	
+	public ClassA(int a) {
+		System.out.println("This is a constructor");
+	}
+	 
+	public static void main(String[] args)
+	{
+		ClassA ca = new ClassA();
+	}
+	
 	
 }
