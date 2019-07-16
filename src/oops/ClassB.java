@@ -1,6 +1,6 @@
 package oops;
 
-public class ClassB extends ClassA{
+public class ClassB extends ClassA {
 	
 	int a=20;
 	public void Modulus()
