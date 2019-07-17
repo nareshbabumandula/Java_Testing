@@ -26,6 +26,10 @@ public class Package_Test {
 		System.out.println("Executing default Logout method...");
 	}
 	
+/*	Package_Test() {
+		System.out.println("Executing package constructor...");
+	}*/
+	
 	public static void main(String[] args) {
 		Package_Test pt = new Package_Test();
 		System.out.println(pt.URL);

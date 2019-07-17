@@ -26,6 +26,10 @@ public class Private_Test {
 		System.out.println("Executing private Logout method...");
 	}
 	
+	private Private_Test() {
+		System.out.println("Executing private constructor...");
+	}
+	
 	public static void main(String[] args) {
 		Private_Test pt = new Private_Test();
 		System.out.println(pt.URL);

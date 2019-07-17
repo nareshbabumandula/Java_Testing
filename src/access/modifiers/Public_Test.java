@@ -26,6 +26,11 @@ public class Public_Test {
 		System.out.println("Executing public Logout method...");
 	}
 	
+	public Public_Test() {
+		System.out.println("Executing public constructor...");
+	}
+	
+	
 	public static void main(String[] args) {
 		Public_Test pt = new Public_Test();
 		System.out.println(pt.URL);
