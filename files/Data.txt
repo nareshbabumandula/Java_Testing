@@ -1,0 +1,3 @@
+URL=http://www.spicejet.com
+USERNAME=naresh123
+PASSWORD=Ignore1234
