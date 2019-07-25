@@ -17,6 +17,7 @@ public class DataTypes {
 		byte b1=127;
 		long l=12243;
 		short s =23324;
+		System.out.println("Primitive data types");
 		System.out.println("Integer value of a is : " + a);
 		System.out.println("Boolean value of b is : " + b);
 		System.out.println("Boolean value of c is : " + c);
@@ -29,7 +30,7 @@ public class DataTypes {
 		System.out.println("These are primitive data types");
 		
 		//Widening
-		byte b2 = 123;
+		byte b2 = 123;		
 		int a2 = b2;
 		System.out.println("Stored byte value into integer data type : " + a2);
 		
@@ -40,6 +41,7 @@ public class DataTypes {
 		
 		
 		//Non-primitive data types
+		System.out.println("Primitive data types");
 		String sText = "hello world this is core java";
 		System.out.println(sText);
 		
