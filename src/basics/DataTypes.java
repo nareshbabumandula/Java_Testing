@@ -26,7 +26,7 @@ public class DataTypes {
 		System.out.println("Byte value of b1 is : " + b1);
 		System.out.println("Long value of l is : " + l);
 		System.out.println("Short value of s is : " + s);
-		
+		System.out.println("These are primitive data types");
 		
 		//Widening
 		byte b2 = 123;
