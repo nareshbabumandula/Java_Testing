@@ -1,0 +1,3 @@
+hello
+world
+this is the data written into the notepad via buffered writer
