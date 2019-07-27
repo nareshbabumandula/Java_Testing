@@ -40,9 +40,11 @@ public class LaunchBrowserTest {
 			break;
 		}
 		
-		driver.manage().window().maximize();
-		driver.get("https://www.hdfcbank.com/");
-		System.out.println(driver.getTitle());
+		driver.manage().window().maximize(); // maximize the browser window
+		driver.get("https://www.hdfcbank.com/"); // access website
+		System.out.println(driver.getTitle()); // browser tab title
+		System.out.println(driver.getCurrentUrl()); // Current URL
+		System.out.println(driver.getWindowHandle());  // browser session id
 		driver.quit();
 	}
 
@@ -50,7 +52,7 @@ public class LaunchBrowserTest {
 
 	public static void main(String[] args) {
 		LaunchBrowserTest lbt = new LaunchBrowserTest();
-		lbt.LaunchBrowserExample("FF");
+		lbt.LaunchBrowserExample("CHROME");
 
 	}
 

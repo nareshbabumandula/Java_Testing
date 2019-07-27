@@ -27,6 +27,8 @@ public class Write_Excel {
 		data.put("3", new Object[]{ 2, "Swetha", "Reddy" });
 		data.put("4", new Object[]{ 3, "Aashik", "P" });
 		data.put("5", new Object[]{ 4, "Virat", "kohli" });
+		data.put("6", new Object[]{ 5, "Mounika", "Chintal" });
+		
 
 		// Iterate over data and write to sheet
 		Set<String> keyset = data.keySet();
@@ -47,7 +49,8 @@ public class Write_Excel {
 		}
 		try {
 			// this Writes the workbook gfgcontribute
-			FileOutputStream out = new FileOutputStream(new File("C:\\Users\\NareshBabu\\Desktop\\Results.xlsx"));
+			String strPath = System.getProperty("user.dir");
+			FileOutputStream out = new FileOutputStream(new File(strPath + "\\files\\Results.xlsx"));
 			workbook.write(out);
 			out.close();
 			System.out.println("Results.xlsx written successfully on disk.");

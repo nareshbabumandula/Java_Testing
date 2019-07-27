@@ -20,6 +20,7 @@ public class ReadExcel {
 		// we create an XSSF Workbook object for our XLSX Excel File
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		System.out.println("No of Sheets : " + workbook.getNumberOfSheets());
+		System.out.println(workbook.getSheetName(0));
 		System.out.println(workbook.getSheetName(1));
 		// wXSSFSheete get first sheet
 		XSSFSheet sheet = workbook.getSheet(strSheetName);

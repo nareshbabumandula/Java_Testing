@@ -6,6 +6,15 @@ public class Public_Test {
 	public String USERNAME =  "sjoerd jager";
 	public String PASSWORD = "Secure*1234";
 	
+	/**
+	 * @Method AccessSite
+	 * @Desc This method is used to access URL
+	 * @InputParameters NA
+	 * @OutputParameters NA
+	 * @author NareshBabu
+	 * @DateCreated 26-July-2019
+	 * @DateModified 
+	 */
 	public void AccessSite()
 	{
 		System.out.println("Executing public AccessSite method...");
