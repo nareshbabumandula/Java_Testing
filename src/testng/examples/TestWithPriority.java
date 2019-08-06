@@ -35,21 +35,21 @@ public class TestWithPriority {
 		System.out.println("Executing verifyUserLogin method...");
 	}
 
-	@Test
+	@Test(priority=0)
 	public void SearchProduct() 
 	{
 		System.out.println("Executing SearchProduct method...");
 		Reporter.log("Successfully searched the product");
 	}
 
-	@Test()
+	@Test(priority=2)
 	public void Checkout() 
 	{
 		System.out.println("Executing Checkout method...");
 		Reporter.log("Successfully checked out the product");
 	}
 
-	@Test()
+	@Test(priority=1)
 	public void AddToCart() 
 	{
 		System.out.println("Executing AddToCart method...");
