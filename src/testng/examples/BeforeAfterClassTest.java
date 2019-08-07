@@ -35,7 +35,7 @@ public class BeforeAfterClassTest {
   }
     
 
-  @AfterClass
+  @AfterClass()
   public void Logout()
   {
 	  System.out.println("Executing Logout method...");
