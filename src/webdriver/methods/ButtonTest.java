@@ -19,13 +19,11 @@ public class ButtonTest
 	@Test
 	public void ButtonMethods()
 	{
-
 		boolean bFlag=false;
-
+		
 		try {
 			WebElement txtSearch = driver.findElement(By.id("twotabsearchtextbox"));
 			WebElement btnSearch = driver.findElement(By.cssSelector("input.nav-input"));
-
 			System.out.println(txtSearch.getAttribute("type"));
 			System.out.println(txtSearch.getAttribute("class"));
 			System.out.println(txtSearch.getAttribute("value"));
@@ -51,8 +49,6 @@ public class ButtonTest
 				System.out.println("Failed to perform actions on a button");
 			}
 		}
-
-
 	}
 
 
