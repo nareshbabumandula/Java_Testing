@@ -33,6 +33,7 @@ public class SwithToWindowTest
 			System.out.println(driver.getWindowHandles());
 			Set<String> sessions = driver.getWindowHandles();
 			
+			// Iterate over collection
 			for (Iterator iterator = sessions.iterator(); iterator.hasNext();) {
 				String string = (String) iterator.next();
 				System.out.println(string);
