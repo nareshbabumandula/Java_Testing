@@ -4,6 +4,6 @@ import org.openqa.selenium.By;
 
 public class Homepage {
 
-	public static By txtSearch = By.id("twotabsearchtextbox"); // Search text box object
-	
+	public static By txtSearch = By.name("q");
+	public static By btnSubmit = By.xpath("//button[@type='submit']");
 }
